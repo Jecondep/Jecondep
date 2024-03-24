@@ -1,0 +1,42 @@
+
+# variables_array.py
+
+# 1. Variables unidimensionales con enteros
+int_1d = [1, 2, 3, 4, 5, 6] 
+print(int_1d)
+
+# 2. Variables unidimensionales con flotantes  
+float_1d = [1.1, 2.2, 3.3, 4.4, 5.5, 6.6]
+print(float_1d)
+# 3. Variables unidimensionales con texto
+text_1d = ['uno', 'dos', 'tres', 'cuatro', 'cinco', 'seis']
+print(text_1d)
+# 4. Variables unidimensionales con enteros, flotantes y texto
+mixed_1d = [1, 2.2, 'tres', 4, 5.5, 'seis']
+print(mixed_1d)
+# 5. Variables bidimensionales 2x3, 5x5, 3x6 con enteros  
+int_2d = [[1,2,3], [4,5,6,7,8,9,10], [11,12,13,14,15,16]]
+print(int_2d)
+# 6. Variables bidimensionales 2x3, 5x5, 3x6 con flotantes
+float_2d = [[1.1,2.2,3.3], [4.4,5.5,6.6,7.7,8.8,9.9,10.1], [11.2,12.3,13.4,14.5,15.6,16.7]] 
+print(float_2d)
+# 7. Variables bidimensionales 2x3, 5x5, 3x6 con texto
+text_2d = [["uno","dos","tres"], ["cuatro","cinco","seis","siete","ocho","nueve","diez"], ["once","doce","trece","catorce","quince","dieciseis"]]
+print(text_2d)
+# 8. Variables bidimensionales 2x3, 5x5, 3x6 con enteros, flotantes y texto
+mixed_2d = [[1,2.2,'tres'], [4,5.5,6.6,7.7,8.8,9.9,10.1], [11.2,12.3,'trece',14.5,15.6,16.7]]
+print(mixed_2d)
+# 9. Variables tridimensionales 2x3x2, 5x5x5, 3x6x2 con enteros
+int_3d = [[[1,2],[3,4],[5,6]], [[1,2,3,4,5],[2,3,4,5,6],[24,25]], [[1,2],[3,4],[5,6],[7,8],[9,10],[11,12]]]
+print(int_3d)
+# 10. Variables tridimensionales 2x3x1, 5x5x2, 3x6x5 con flotantes
+float_3d = [[[1.1],[2.2],[3.3]], [[1.1,2.2],[2.2,3.3],[24.4,25.5]], [[1.2,2.3,3.4,4.5,6.7],[2.3,3.4,4.5,5.6,6.7],[8.9,9.10,11.11,12.12,13.13]]]
+print(float_3d)
+# 11. Variables tridimensionales 2x3x3, 5x5x4, 3x6x1 con texto  
+text_3d = [[["uno","dos","tres"],["uno","dos","tres"],["uno","dos","tres"]],
+            [["uno","dos","tres"],["cuatro","veinticuatro","veinticinco"]],
+             [["uno","dos","tres"],["cuatro","veinticuatro","veinticinco"]]]
+print(text_3d)
+# 12. Variables tridimensionales 2x3x2, 5x5x1, 3x6x2 con enteros, flotantes y texto
+mixed_3d = [[[1,2.2,'tres'],[3,4.4,'uno'],[5,6.6,'dos']], [[1.1],[2.2],[25.5]], [[1,2],'dos',[3,4],'cuatro',[5,6],'seis']]
+print(mixed_3d)

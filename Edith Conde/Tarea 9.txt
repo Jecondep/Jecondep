@@ -1,0 +1,19 @@
+Aquí están las declaraciones de variables multidimensionales usando arrays en Python tal como me pediste:
+
+# variables_array.py
+
+# 1. Variables unidimensionales con enteros
+int_1d = [1, 2, 3, 4, 5, 6]
+
+# 2. Variables unidimensionales con flotantes  
+float_1d = [1.1, 2.2, 3.3, 4.4, 5.5, 6.6] 
+
+# 3. Variables unidimensionales con texto
+text_1d = ['uno', 'dos', 'tres', 'cuatro', 'cinco', 'seis']
+
+# 4. Variables unidimensionales con enteros, flotantes y texto
+mixed_1d = [1, 2.2, 'tres', 4, 5.5, 'seis']
+
+# 5. Variables bidimensionales 2x3, 5x5, 3x6 con enteros   
+int_2d1 = [[1,2,3], [4,5,6,7,8,9]]
+int_2d2 = [[10,11,12], [13,14,15,16,17,18,19]]

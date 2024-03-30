@@ -1,0 +1,23 @@
+# Importar el módulo os para trabajar con el sistema de archivos
+import os
+
+# Ruta del archivo
+archivo = "my_notes.txt"
+
+# Crear un nuevo archivo llamado my_notes.txt
+with open(archivo, "w") as file:
+    # Escribir al menos tres líneas de notas personales en el archivo
+    file.write("Esta es mi primera línea de notas.\n")
+    file.write("Aquí va la segunda línea de notas.\n")
+    file.write("Y finalmente, la tercera línea de notas.\n")
+
+# Abrir el archivo my_notes.txt en modo lectura
+with open(archivo, "r") as file:
+    # Leer el contenido del archivo línea por línea
+    lineas = file.readlines()
+    # Mostrar en la consola cada línea leída
+    for linea in lineas:
+        print(linea.strip())
+
+# Cerrar el archivo my_notes.txt
+file.close()
